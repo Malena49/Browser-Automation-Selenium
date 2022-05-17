@@ -21,9 +21,13 @@ JQuery_Download_Progress_bars = driver.find_element(by=By.LINK_TEXT, value="JQue
 JQuery_Download_Progress_bars.click()
 downloadButton = driver.find_element(by=By.ID, value="downloadButton")
 downloadButton.click()
-WebDriverWait(driver, 30).until(
-    EC.text_to_be_present_in_element(
- (By.CLASS_NAME, "progress-label"),  #filtrer 
-   "Complete!" # résultat attendu
+try:
+    WebDriverWait(driver, 30).until(
+     EC.text_to_be_present_in_element(
+    (By.CLASS_NAME, "progress-label"),  #filtrer 
+    "Complete!" # résultat attendu
+     )
     )
-)
+except:
+    print("échec de téléchagement")
+driver.close()
