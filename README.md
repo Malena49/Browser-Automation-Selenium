@@ -2,7 +2,7 @@
 
 ## Présentation
 
-Entrez ici les instructions pour bien débuter avec votre projet...
+Tester un bouton de téléchargement sur le site http://demo.seleniumeasy.com/ avec Selenium
 
 ### Pré-requis
 
