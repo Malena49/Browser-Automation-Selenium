@@ -1,28 +1,20 @@
 # Browser-Automation-Selenium
 
-## Pour commencer
+## Présentation
 
 Entrez ici les instructions pour bien débuter avec votre projet...
 
 ### Pré-requis
 
-Ce qu'il est requis pour commencer avec votre projet...
-
-- Programme 1
-- Programme 2
-- etc...
+- Télécharger Python
+- Télécharger Chrome
+- Télécharger chromedriver et l'ajouter dans le PATH
 
 ### Installation
 
-Les étapes pour installer votre programme....
-
-Dites ce qu'il faut faire...
-
-_exemple_: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
-
-
-Ensuite vous pouvez montrer ce que vous obtenez au final...
+- Executer la commande ``git clone https://github.com/Malena49/Browser-Automation-Selenium.git``
+- Executer la commande ``pip install selenium``
 
 ## Démarrage
 
-Dites comment faire pour lancer votre projet
+- Executer la commande ``Python main.py``
