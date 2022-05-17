@@ -8,7 +8,13 @@ options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(options=options)
 driver.get("http://demo.seleniumeasy.com/")
 driver.implicitly_wait(8)
-#at-cm-no-button
+#fermer popup
+try:
+    popup = driver.find_element(by=By.CLASS_NAME, value="at-cm-no-button")
+    popup.click()
+except:
+    print("pas de popup, ignorer cette étape")
+
 Progress_Bars = driver.find_element(by=By.PARTIAL_LINK_TEXT, value="Progress Bars")
 Progress_Bars.click()
 JQuery_Download_Progress_bars = driver.find_element(by=By.LINK_TEXT, value="JQuery Download Progress bars")
