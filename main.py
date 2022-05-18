@@ -30,4 +30,4 @@ try:
     )
 except:
     print("échec de téléchagement")
-driver.close()
+driver.quit()
