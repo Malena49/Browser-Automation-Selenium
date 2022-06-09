@@ -2,7 +2,7 @@
 
 ## Présentation
 
-Tester un bouton de téléchargement sur le site http://demo.seleniumeasy.com/ avec Selenium
+Tester un bouton de téléchargement sur le site http://demo.seleniumeasy.com/ avec Selenium 
 
 ### Pré-requis
 
